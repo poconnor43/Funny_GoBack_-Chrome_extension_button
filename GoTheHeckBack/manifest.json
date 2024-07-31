@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Go the F*** back button",
+    "version": "1.0",
+    "description":"For when Mom and Dad get pissed off at the computer",
+    "permissions": ["tabs", "history","scripting"],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "action": {
+        "default_popup":"popup/popup.html"
+    }
+}
